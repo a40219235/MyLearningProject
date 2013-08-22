@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2057" systemVersion="11G63" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="GameObjectDetails" representedClassName="GameObjectDetails" syncable="YES">
+        <attribute name="points" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="info" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="GameObjectInfo" inverseName="details" inverseEntity="GameObjectInfo" syncable="YES"/>
+    </entity>
+    <entity name="GameObjectInfo" representedClassName="GameObjectInfo" syncable="YES">
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="skill" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="details" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="GameObjectDetails" inverseName="info" inverseEntity="GameObjectDetails" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="GameObjectDetails" positionX="-45" positionY="162" width="128" height="75"/>
+        <element name="GameObjectInfo" positionX="160" positionY="192" width="128" height="90"/>
+    </elements>
+</model>

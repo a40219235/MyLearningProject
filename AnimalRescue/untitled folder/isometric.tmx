@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="13" height="6" tilewidth="49" tileheight="49">
+ <tileset firstgid="1" name="dg_iso32" tilewidth="49" tileheight="49" spacing="1" margin="1">
+  <image source="dg_iso32.png" width="756" height="735"/>
+ </tileset>
+ <layer name="background" width="13" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF5AAAATgAAQ==
+  </data>
+ </layer>
+</map>
